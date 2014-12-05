@@ -1,11 +1,11 @@
 title: Favorite fruits
 tags:
-- favorite
+- favorites
 - food
 ---
 
-1. wax apple
-2. pomelo
-3. persimmon
-4. white peach
-5. blueberries
+- wax apple
+- pomelo
+- persimmon
+- white peach
+- blueberries
