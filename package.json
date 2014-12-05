@@ -1,0 +1,14 @@
+{
+  "name": "lists",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinjaywang/lists.git"
+  },
+  "private": false,
+  "dependencies": {
+    "hexo-renderer-ejs": "*",
+    "hexo-renderer-stylus": "*",
+    "hexo-renderer-marked": "*"
+  }
+}
