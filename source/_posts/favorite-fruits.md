@@ -4,8 +4,11 @@ tags:
 - food
 ---
 
-- wax apple
+- [lembu](http://en.wikipedia.org/wiki/Syzygium_samarangense)
 - pomelo
-- persimmon
+- fuyu persimmon
 - white peach
-- blueberries
+- blueberry
+- grape
+- longan
+- guava

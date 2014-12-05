@@ -7,8 +7,10 @@
   },
   "private": false,
   "dependencies": {
+    "hexo-console-optimize": "0.0.5",
     "hexo-renderer-ejs": "*",
-    "hexo-renderer-stylus": "*",
-    "hexo-renderer-marked": "*"
+    "hexo-renderer-less": "^0.1.2",
+    "hexo-renderer-marked": "*",
+    "hexo-renderer-stylus": "*"
   }
 }
