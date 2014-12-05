@@ -1,4 +1,5 @@
-title: Favorite MLB caps
+title: Favorite baseball caps
+description: Logos and colors and stuff
 tags:
 - favorites
 - sports

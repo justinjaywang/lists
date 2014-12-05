@@ -6,3 +6,4 @@ tags:
 - Alaska
 - Asia
 - A cabin
+- An island
