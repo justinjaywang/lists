@@ -9,7 +9,6 @@ tags:
 - Los Angeles Dodgers
 - St. Louis Cardinals
 - Cincinnati Reds
-- New York Yankees
 - New York Mets
 - Pittsburgh Pirates
 - Minnesota Twins

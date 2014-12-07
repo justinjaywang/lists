@@ -51,7 +51,7 @@
 
 // typography
 // : font-size variables
-@font-size-px-base:     16px;
+@font-size-px-base:     17.5px;
 @font-size-em-tera:     unit(@size-tera, em);
 @font-size-em-giga:     unit(@size-giga, em);
 @font-size-em-mega:     unit(@size-mega, em);
@@ -63,14 +63,13 @@
 @font-size-em-smaller:  unit(@size-smaller, em);
 @font-size-em-smallest: unit(@size-smallest, em);
 // : font-size applications
-@font-size--html:      @font-size-px-base;
-@font-size--body:      @font-size-em-base;
-@font-size--h1:        @font-size-em-larger;
-@font-size--h2:        @font-size-em-larger;
-@font-size--h3:        @font-size-em-larger;
-@font-size--post-date: @font-size-em-smallest;
+@font-size--html:        @font-size-px-base;
+@font-size--body:        @font-size-em-base;
+@font-size--h1:          @font-size-em-base;
+@font-size--h2:          @font-size-em-base;
+@font-size--h3:          @font-size-em-base;
 // : font-family variables
-@font-family-sans-serif: "PT Serif", "Franklin Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:      "PT Serif", Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:  Consolas, Monaco, "Andale Mono", monospace;
 @font-family-caption:    "PT Serif Caption";
@@ -86,19 +85,19 @@
 @font-weight-semilight: 300;
 // : font-weight applications
 @font-weight--body: @font-weight-normal;
-@font-weight--h1:   @font-weight-normal;
-@font-weight--h2:   @font-weight-normal;
-@font-weight--h3:   @font-weight-normal;
+@font-weight--h1:   @font-weight-bold;
+@font-weight--h2:   @font-weight-bold;
+@font-weight--h3:   @font-weight-bold;
 // : line-height variables
 @line-height-tighter:  1.2;
 @line-height-tight:    1.3;
 @line-height-base:     1.4;
 @line-height-loose:    1.5;
 // : line-height applications
-@line-height--body: @line-height-base;
-@line-height--h1:   @line-height-tighter;
-@line-height--h2:   @line-height-tighter;
-@line-height--h3:   @line-height-tighter;
+@line-height--body: @line-height-tight;
+@line-height--h1:   @line-height-tight;
+@line-height--h2:   @line-height-tight;
+@line-height--h3:   @line-height-tight;
 // : letter-spacing variables
 @letter-spacing-tighter: -0.02em;
 @letter-spacing-tight:   -0.015em;
@@ -124,7 +123,8 @@
 @max-width--container--narrow:      @width-screen-md-min;
 @padding-left--container:           @container-gutter;
 @margin-left--container--grid-item: @container--grid-item-gutter;
-@margin-bottom--page-header:        3rem;
+@margin-top--page-header:    1.3rem;
+@margin-bottom--page-header: 2.6rem;
 
 // spacing
 

@@ -7,11 +7,21 @@
       <% } %>
     </a>
   </header>
+  <footer class="post-footer">
+    <br>
+    <!--tagged <%- partial('tag') %>-->
+    <%- partial('date', {date_format: config.date_format}) %>
+    
+  </footer>
+  <br>
   <section class="post-content">
     <%- post.content %>
   </section>
-  <footer class="post-footer">
-    <%- partial('tag') %>
-    <%- partial('date', {date_format: config.date_format}) %>
-  </footer>
 </article>
+
+<% if (post.next) { %>
+<br>&mdash;<br><br>
+<section class="post-next">
+  <a href="<%= url_for(post.next.path) %>">next&nbsp;&nbsp;<span class="post-next-link"><%= post.next.title %></span></a>
+</section>
+<% } %>

@@ -66,12 +66,40 @@ h3 {
 // }
 // page-header
 .page-header {
+  margin-top: @margin-top--page-header;
   margin-bottom: @margin-bottom--page-header;
+}
+
+.post-title {
+  display: inline;
+  margin-right: 0.25rem;
+}
+.post-description {
+  font-style: italic;
 }
 
 // page-main
 .post-content ul {
-  list-style-type: decimal;
+  list-style-type: none;
+}
+.post-footer {
+  font-size: @font-size-em-small;
+  font-style: italic;
+}
+.post-tag-list {
+  list-style-type: none;
+}
+.post-tag-list-item {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.post-next {
+  font-style: italic;
+}
+.post-next-link {
+  font-family: @font-family-sans-serif;
+  font-weight: @font-weight-bold;
+  font-style: normal;
 }
 .container--grid {
   font-size: 0;
@@ -84,7 +112,6 @@ h3 {
   &:nth-of-type(3n+1) {
     margin-left: 0;
   }
-  height: 100px;
   font-size: @font-size--html; // TEMP
-
+  margin-bottom: 2rem;
 }

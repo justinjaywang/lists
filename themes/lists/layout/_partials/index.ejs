@@ -1,5 +1,8 @@
 <main class="page-main container container--grid">
-<% page.posts.each(function(post){ %>
+<% var posts = get_posts({
+  count: 1000
+}) %>
+<% posts.each(function(post){ %>
   <%- partial('_partials/post-preview', {post: post, index: true}) %>
 <% }) %>
 </main>

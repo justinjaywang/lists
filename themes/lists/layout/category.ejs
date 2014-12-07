@@ -1,6 +1,5 @@
-<main class="page-main">
+<main class="page-main container container--grid">
 <% page.posts.each(function(post){ %>
   <%- partial('_partials/post-preview', {post: post, index: true}) %>
 <% }) %>
 </main>
-<%- partial('_partials/pagination') %>
