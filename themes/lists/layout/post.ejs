@@ -1,3 +1,5 @@
+<%- partial('_partials/header', {}, {cache: !config.relative_link}) %>
+
 <main class="page-main container">
-  <%- partial('_partials/post', {post: page, index: false}) %>
+  <%- partial('_partials/post', {post: page}) %>
 </main>

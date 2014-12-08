@@ -20,6 +20,8 @@ body {
   text-rendering: optimizeLegibility;
   .font-smoothing(antialiased);
   -moz-osx-font-smoothing: grayscale;
+  margin-top: @margin-top--body;
+  margin-bottom: @margin-bottom--body;
 }
 .container {
   width: @width--container;
@@ -66,8 +68,12 @@ h3 {
 // }
 // page-header
 .page-header {
-  margin-top: @margin-top--page-header;
+  // margin-top: @margin-top--page-header;
   margin-bottom: @margin-bottom--page-header;
+}
+.page-title {
+  text-transform: lowercase;
+
 }
 
 .post-title {
@@ -96,9 +102,9 @@ h3 {
   opacity: 0.4;
   text-align: right;
 }
-.post-content ul li {
-  text-align: justify;
-}
+// .post-content ul li {
+//   text-align: justify;
+// }
 .post-content ul li a:after {
   // content: '→';
   // content: ' ☞';
@@ -181,5 +187,5 @@ h3 {
     margin-left: 0;
   }
   font-size: @font-size--html; // TEMP
-  margin-bottom: 2rem;
+  height: 5.2rem;
 }

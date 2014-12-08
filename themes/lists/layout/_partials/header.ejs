@@ -1,3 +1,9 @@
 <header class="page-header container">
-  <a href="<%= config.root %>"><h4 class="page-title"><%= config.title %></h4></a>
+  <a href="<%= config.root %>">
+    <% if (page.tag) { %>
+    <h4 class="page-title page-title--tag"><%= page.tag %></h4>
+    <% } else { %>
+    <h4 class="page-title"><%= config.title %></h4>
+    <% } %>
+  </a>
 </header>
