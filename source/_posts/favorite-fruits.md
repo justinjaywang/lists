@@ -1,4 +1,7 @@
 title: Favorite fruits
+description:
+date:
+updated:
 tags:
 - favorites
 - food
@@ -8,6 +11,7 @@ tags:
 - pomelo
 - fuyu persimmon
 - white peach
+- fuji apple
 - blueberry
 - grape
 - longan
