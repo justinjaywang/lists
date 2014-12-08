@@ -5,22 +5,12 @@
     <%- post.content %>
   </section>
   <footer class="post-footer">
-    <br><br>
-    <%- partial('date', {date_format: config.date_format}) %><br><br>
-    tagged&nbsp;&nbsp;&nbsp;<%- partial('tag') %>
+    <%- partial('post-date', {date_format: config.date_format}) %>
+    <%- partial('post-tag-list') %>
+    <% if (post.next) { %>
+    <section class="post-next">
+      <a href="<%= url_for(post.next.path) %>" class="post-next-link"><%= post.next.title %></a>
+    </section>
+    <% } %>
   </footer>
-
-  <% if (post.next) { %>
-  <section class="post-next">
-    <a href="<%= url_for(post.next.path) %>">next&nbsp;&nbsp;&nbsp;<span class="post-next-link"><%= post.next.title %></span></a>
-  </section>
-  <% } %>
-  <!--
-  <% if (post.next) { %>
-  <section class="post-next">
-    <a href="<%= url_for(post.next.path) %>">next&nbsp;&nbsp;<span class="post-next-link"><%= post.next.title %></span></a>
-  </section>
-  <% } %>
--->
-
 </article>
