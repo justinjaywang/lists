@@ -81,25 +81,93 @@ h3 {
 // page-main
 .post-content ul {
   list-style-type: none;
+  counter-reset: decimal-counter;
+}
+.post-content ul li:before {
+  content: counter(decimal-counter);
+  counter-increment: decimal-counter;
+  position: relative;
+  left: -2.5rem;
+  width: 2.5rem;
+  margin-right: -2.5rem;
+  padding-right: 0.5rem;
+  display: inline-block;
+  font-size: @font-size-em-small;
+  opacity: 0.4;
+  text-align: right;
+}
+.post-content ul li {
+  text-align: justify;
+}
+.post-content ul li a:after {
+  // content: '→';
+  // content: ' ☞';
+}
+.post-content ul li:last-child:after {
+  // content: '✌';
+  // content: '※';
+  // content: '◊';
+  // content: '◼';
+  // content: '■';
+  // content: '∎';
+  // padding-left: 0.5rem;
 }
 .post-footer {
-  font-size: @font-size-em-small;
-  font-style: italic;
+  // font-size: @font-size-em-small;
+  // font-style: italic;
 }
 .post-tag-list {
   list-style-type: none;
+  display: inline;
 }
 .post-tag-list-item {
   display: inline-block;
-  margin-right: 0.5rem;
+  margin-right: 0.3rem;
+  font-style: italic;
+  &:not(:last-child):after {
+    content: ',';
+    font-style: normal;
+  }
+  // &:before {
+  //   content: '#';
+  //   font-style: normal;
+  // }
+}
+.post-date {
+  font-style: italic;
+  // font-family: "PT Sans Caption";
+  // font-size: @font-size-em-small;
+  // text-transform: uppercase;
+  // opacity: 0.4;
 }
 .post-next {
-  font-style: italic;
+  // font-size: @font-size-em-small;
+
+  // font-style: italic;
+  // &:before {
+  //   content: 'next';
+  //   position: relative;
+  //   left: -2.5rem;
+  //   width: 2.5rem;
+  //   margin-right: -2.5rem;
+  //   padding-right: 0.5rem;
+  //   opacity: 0.4;
+  // }
+  padding-left: 1rem;
+  text-indent: -1rem;
 }
 .post-next-link {
-  font-family: @font-family-sans-serif;
-  font-weight: @font-weight-bold;
-  font-style: normal;
+  // font-family: @font-family-sans-serif;
+  // font-weight: @font-weight-bold;
+  // font-style: normal;
+  font-style: italic;
+}
+.page-title {
+  text-align: center;
+}
+.post:not(.post--preview) {
+  .container--grid-item-width(3);
+  .margin-center();
 }
 .container--grid {
   font-size: 0;
