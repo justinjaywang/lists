@@ -2,7 +2,7 @@
 // : variables
 @color-gray-dark:    rgb(63,63,63);
 @color-gray-light:   rgba(63,63,63,0.4);
-@color-gray-lighter: rgba(63,63,63,0.12);
+@color-gray-lighter: rgba(63,63,63,0.16);
 @color-white:        rgb(255,255,255);
 @color-accent:       rgb(128,149,255); // periwinkle
 @color-temp:         rgba(255,0,0,0.05); // TEMP
@@ -142,8 +142,8 @@
 @margin-top--post-content:               (@em-unit--v * 1);
 @margin-bottom--post-content:            (@em-unit--v * 2);
 @margin-bottom--post-date:               (@em-unit--v * 1);
-@height--container--grid-item:           (@em-unit--v * @container--grid-item-lines);
-@margin-bottom--container--grid-item:    (@em-unit--v * 1);
+@height--container--grid-item:           (@em-unit--v * (@container--grid-item-lines + 1));
+@padding-bottom--container--grid-item:   (@em-unit--v * 1 - 0.5em);
 @margin-right--post-title:               (@em-unit--h * 2);
 @padding-right--post-tag-list-before:    (@em-unit--h * 3);
 @padding-right--post-next-link-before:   (@em-unit--h * 3);

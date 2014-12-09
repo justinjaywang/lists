@@ -58,18 +58,16 @@ h2 {
 .container--narrow-item {
   .margin-center();
 }
-.container--grid-item {
-  margin-left: @margin-left--container--grid-item;
-  margin-bottom: @margin-bottom--container--grid-item;
-}
 .container--grid {
   font-size: 0;
 }
-.container--grid > * {
+.container--grid-item {
   font-size: @font-size--container--grid-item;
   display: @display--container--grid-item;
-  vertical-align: top;
   height: @height--container--grid-item;
+  padding-bottom: @padding-bottom--container--grid-item;
+  margin-left: @margin-left--container--grid-item;
+  vertical-align: top;
   overflow: hidden;
 }
 @media (min-width: @width-screen-lg-min) {
