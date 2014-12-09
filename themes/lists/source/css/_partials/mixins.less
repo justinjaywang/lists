@@ -1,63 +1,3 @@
-// container--grid item width
-.container--grid-item-width(@n) {
-  width: calc((100% / @n) ~" - " (@container--grid-item-gutter * (@n - 1) / @n));
-}
-
-// left and right auto margins
-.margin-center() {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-// keep images from scaling beyond the width of their parents
-.img-responsive(@display: block) {
-  display: @display;
-  max-width: 100%; // Part 1: Set a maximum relative to the parent
-  height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
-}
-
-// For modern browsers
-// 1. The space content is one way to avoid an Opera bug when the
-//    contenteditable attribute is included anywhere else in the document.
-//    Otherwise it causes space to appear at the top and bottom of elements
-//    that are clearfixed.
-// 2. The use of `table` rather than `block` is only necessary if using
-//    `:before` to contain the top-margins of child elements.
-//
-// Source: http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix() {
-  *zoom: 1;
-  &:before,
-  &:after {
-    content: ''; // 1
-    display: table; // 2
-  }
-  &:after {
-    clear: both;
-  }
-}
-
-// opacity
-.opacity(@opacity) {
-  opacity: @opacity;
-  // IE8 filter
-  @opacity-ie: (@opacity * 100);
-  filter: ~"alpha(opacity=@{opacity-ie})";
-}
-
-// requires inline-block or block for proper styling
-.text-overflow() {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-// drop shadows
-.box-shadow(@shadow) {
-  -webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1
-          box-shadow: @shadow;
-}
-
 // box sizing
 .box-sizing(@boxmodel) {
   -webkit-box-sizing: @boxmodel;
@@ -99,8 +39,18 @@
           user-select: @select;
 }
 
+// auto margins
+.margin-center() {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// grid item width
+.container--grid-item-width(@n) {
+  width: unit((100 / @n) - (@grid-gutter * (@n - 1) / @n), %);
+}
+
 // anchor markups
-// TO DO: maybe remove
 .underline(@y) {
   background-repeat: repeat-x;
   background-size: 2px 2px;

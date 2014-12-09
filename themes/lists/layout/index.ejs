@@ -1,11 +1,7 @@
 <%- partial('_partials/page-header', {}, {cache: !config.relative_link}) %>
 
 <main class="page-main container container--grid">
-  <% var posts = get_posts({
-    count: null,
-    orderby: 'updated'
-  }) %>
-  <% posts.each(function(post){ %>
+  <% page.posts.each(function(post){ %>
     <%- partial('_partials/post-header', {post: post, isIndex: true}) %>
   <% }) %>
 </main>

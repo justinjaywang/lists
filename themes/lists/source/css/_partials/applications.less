@@ -53,27 +53,63 @@ h2 {
   .margin-center();
   background-color: @color-temp;
 }
-.container--narrow {
-  max-width: 18rem;
+.container--narrow-item {
+  .margin-center();
+}
+.container--grid-item {
+  margin-left: @margin-left--container--grid-item;
+  margin-bottom: @margin-bottom--container--grid-item;
 }
 .container--grid {
   font-size: 0;
 }
 .container--grid > * {
-  display: inline-block;
+  font-size: @font-size--container--grid-item;
+  display: @display--container--grid-item;
   vertical-align: top;
-  .container--grid-item-width(3);
-  margin-left: @margin-left--container--grid-item;
-  &:nth-of-type(3n+1) {
+  height: @height--container--grid-item;
+  overflow: hidden;
+}
+@media (min-width: @width-screen-lg-min) {
+  .container-item {
+    .container--grid-item-width(4);
+  }
+  .container--grid-item:nth-of-type(4n+1) {
     margin-left: 0;
   }
-  font-size: @font-size--html; // TEMP
-  height: 5.2rem;
+}
+@media (min-width: @width-screen-md-min) and (max-width: @width-screen-md-max) {
+  .container-item {
+    .container--grid-item-width(3);
+  }
+  .container--grid-item:nth-of-type(3n+1) {
+    margin-left: 0;
+  }
+}
+@media (min-width: @width-screen-sm-min) and (max-width: @width-screen-sm-max) {
+  .container-item {
+    .container--grid-item-width(2);
+  }
+  .container--grid-item:nth-of-type(2n+1) {
+    margin-left: 0;
+  }
+}
+@media (max-width: @width-screen-xs-max) {
+  .container-item {
+    .container--grid-item-width(1);
+  }
+  .container--grid-item {
+    margin-left: 0;
+  }
 }
 
 // page-header
 .page-header {
   margin-bottom: @margin-bottom--page-header;
+}
+.page-header-link {
+  display: @display--page-header-link;
+  .margin-center();
 }
 .page-title {
   text-transform: @text-transform--page-title;
@@ -87,6 +123,9 @@ h2 {
 }
 
 // page-main
+.post-link {
+  display: @display--post-link;
+}
 .post-title {
   display: @display--post-title;
   margin-right: @margin-right--post-title;
@@ -95,6 +134,7 @@ h2 {
   font-style: @font-style--post-description;
 }
 .post-content {
+  margin-top: @margin-top--post-content;
   margin-bottom: @margin-bottom--post-content;
 }
 .post-content ul {
@@ -105,14 +145,18 @@ h2 {
   content: counter(decimal-counter);
   counter-increment: decimal-counter;
   position: relative;
-  display: inline-block;
   text-align: right;
+  display: @display--post-content-list-style;
   left: @left--post-content-list-style;
   width: @width--post-content-list-style;
   margin-right: @margin-right--post-content-list-style;
   padding-right: @padding-right--post-content-list-style;
   font-size: @font-size--post-content-list-style;
   color: @color--post-content-list-style;
+}
+.post-content a {
+  .underline(@y--underline);
+  .underline-color(@color--underline);
 }
 .post-footer {
   font-style: @font-style--post-footer;

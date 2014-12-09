@@ -1,24 +1,17 @@
-// responsiveness
-// : variables
-@width-screen-sm-min: 480px;
-@width-screen-md-min: 800px;
-@width-screen-lg-min: 1100px;
-@width-screen-xs-max: (@width-screen-sm-min - 1);
-@width-screen-sm-max: (@width-screen-md-min - 1);
-@width-screen-md-max: (@width-screen-lg-min - 1);
-
 // colors
 // : variables
-@color-gray-dark:  rgb(63,63,63);
-@color-gray-light: rgba(63,63,63,0.4);
-@color-white:      rgb(255,255,255);
-@color-accent:     rgb(128,149,255); // periwinkle
-@color-temp:       rgba(255,0,0,0.05); // TEMP
+@color-gray-dark:    rgb(63,63,63);
+@color-gray-light:   rgba(63,63,63,0.4);
+@color-gray-lighter: rgba(63,63,63,0.12);
+@color-white:        rgb(255,255,255);
+@color-accent:       rgb(128,149,255); // periwinkle
+@color-temp:         rgba(255,0,0,0.05); // TEMP
 // : applications
 @background-color--body:         @color-white;
 @color--body:                    @color-gray-dark;
 @color--a:                       inherit;
 @color--post-content-list-style: @color-gray-light;
+@color--underline:               @color-gray-lighter;
 
 // sizing
 @size-tera:         3;
@@ -67,6 +60,7 @@
 @font-size--h1:                      @font-size-em-base;
 @font-size--h2:                      @font-size-em-base;
 @font-size--post-content-list-style: @font-size-em-small;
+@font-size--container--grid-item:    @font-size--html;
 // : font-family variables
 @font-family-sans-serif: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:      "PT Serif", Georgia, "Times New Roman", Times, serif;
@@ -75,7 +69,6 @@
 @font-family--body: @font-family-serif;
 @font-family--h1:   @font-family-sans-serif;
 @font-family--h2:   @font-family--h1;
-// @font-family--post-date: inherit;
 // : font-weight variables
 @font-weight-bold:      700;
 @font-weight-semibold:  600;
@@ -91,17 +84,18 @@
 @line-height-base:     1.4;
 @line-height-loose:    1.5;
 // : line-height applications
-@line-height--body: @line-height-tight;
-@line-height--h1:   @line-height-tight;
-@line-height--h2:   @line-height-tight;
+@line-height--body:      @line-height-tight;
+@line-height--h1:        @line-height-tight;
+@line-height--h2:        @line-height-tight;
+@line-height--underline: @line-height-tighter;
 // : letter-spacing variables
-@letter-spacing-tight:   -0.015em;
-@letter-spacing-base:    0;
-@letter-spacing-loose:   0.02em;
+@letter-spacing-tight: -0.015em;
+@letter-spacing-base:  0;
+@letter-spacing-loose: 0.02em;
 // : letter-spacing applications
-@letter-spacing--body:      @letter-spacing-base;
-@letter-spacing--h1:        @letter-spacing-base;
-@letter-spacing--h2:        @letter-spacing-base;
+@letter-spacing--body: @letter-spacing-base;
+@letter-spacing--h1:   @letter-spacing-base;
+@letter-spacing--h2:   @letter-spacing-base;
 // : text-transform variables
 @text-transform-lowercase: lowercase;
 // : text-transform applications
@@ -121,37 +115,53 @@
 
 // sizing and spacing
 // : variables
-@v-em-unit:                   @font-size--body * @line-height--body;
-@h-em-unit:                   0.25em;
-@container-gutter:            @size-rem-base;
-@container--grid-item-gutter: @size-rem-base;
+@em-unit--v:                 @font-size--body * @line-height--body;
+@em-unit--h:                 (@size-rem-base / 4);
+@container-gutter:           @size-rem-base;
+@grid-gutter-percent:        4%;
+@grid-gutter:                unit(@grid-gutter-percent);
+@container--grid-item-lines: 3;
+@width-column:               240px;
+@width-screen-sm-min:        (@width-column * 1);
+@width-screen-md-min:        (@width-column * 2);
+@width-screen-lg-min:        (@width-column * 3);
+@width-screen-xs-max:        (@width-screen-sm-min - 1);
+@width-screen-sm-max:        (@width-screen-md-min - 1);
+@width-screen-md-max:        (@width-screen-lg-min - 1);
+@max-width--container:       @width-screen-lg-min;
 // : applications
 @width--container:                       100%;
-@max-width--container:                   @width-screen-md-min;
-@max-width--container--narrow:           @width-screen-md-min;
 @padding-left--container:                @container-gutter;
-@margin-left--container--grid-item:      @container--grid-item-gutter;
-@margin-top--body:                       (@v-em-unit * 2);
-@margin-bottom--body:                    (@v-em-unit * 4);;
-@margin-bottom--page-header:             (@v-em-unit * 2);
-@margin-bottom--post-content:            (@v-em-unit * 2);
-@margin-bottom--post-date:               (@v-em-unit * 1);
-@margin-right--post-title:               (@h-em-unit * 2);
-@padding-right--post-tag-list-before:    (@h-em-unit * 3);
-@padding-right--post-next-link-before:   (@h-em-unit * 3);
-@margin-right--post-tag-list-item:       (@h-em-unit * 1.5);
-@padding-left--post-next:                (@h-em-unit * 4);
+@margin-left--container--grid-item:      @grid-gutter-percent;
+@margin-top--body:                       (@em-unit--v * 2);
+@margin-bottom--body:                    (@em-unit--v * 4);;
+@margin-bottom--page-header:             (@em-unit--v * 2);
+@margin-top--post-content:               (@em-unit--v * 1);
+@margin-bottom--post-content:            (@em-unit--v * 2);
+@margin-bottom--post-date:               (@em-unit--v * 1);
+@height--container--grid-item:           (@em-unit--v * @container--grid-item-lines);
+@margin-bottom--container--grid-item:    (@em-unit--v * 1);
+@margin-right--post-title:               (@em-unit--h * 2);
+@padding-right--post-tag-list-before:    (@em-unit--h * 3);
+@padding-right--post-next-link-before:   (@em-unit--h * 3);
+@margin-right--post-tag-list-item:       (@em-unit--h * 1.5);
+@padding-left--post-next:                (@em-unit--h * 4);
 @text-indent--post-next:                 (@padding-left--post-next * -1);
-@width--post-content-list-style:         (@h-em-unit * 8);
+@width--post-content-list-style:         (@em-unit--h * 4);
 @left--post-content-list-style:          (@width--post-content-list-style * -1);
 @margin-right--post-content-list-style:  (@width--post-content-list-style * -1);
-@padding-right--post-content-list-style: (@h-em-unit * 3);
+@padding-right--post-content-list-style: (@em-unit--h * 3);
 
 // miscellaneous
-@display--post-title:         inline;
-@display--post-date:          block;
-@display--post-tag-list-item: inline-block;
-@text-align--page-title:      center;
+@display--container--grid-item:    inline-block;
+@display--page-header-link:        block;
+@display--post-title:              inline;
+@display--post-link:               block;
+@display--post-content-list-style: inline-block;
+@display--post-date:               block;
+@display--post-tag-list-item:      inline-block;
+@text-align--page-title:           center;
+@y--underline:                     (@font-size--body * @line-height--underline);
 
 // content
 @content--post-tag-list-before:     'tagged';
