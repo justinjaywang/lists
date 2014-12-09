@@ -117,22 +117,25 @@
 // : variables
 @em-unit--v:                 @font-size--body * @line-height--body;
 @em-unit--h:                 (@size-rem-base / 4);
-@container-gutter:           @size-rem-base;
-@grid-gutter-percent:        4%;
-@grid-gutter:                unit(@grid-gutter-percent);
+@container-gutter:           36px;
+@grid-gutter:                24px;
 @container--grid-item-lines: 3;
-@width-column:               240px;
-@width-screen-sm-min:        (@width-column * 1);
-@width-screen-md-min:        (@width-column * 2);
-@width-screen-lg-min:        (@width-column * 3);
+@width--container-item:      240px;
+@width-screen-xs-min:        ((@width--container-item * 1) + (@container-gutter * 2) + (@grid-gutter * 0));
+@width-screen-sm-min:        ((@width--container-item * 2) + (@container-gutter * 2) + (@grid-gutter * 1));
+@width-screen-md-min:        ((@width--container-item * 3) + (@container-gutter * 2) + (@grid-gutter * 2));
+@width-screen-lg-min:        ((@width--container-item * 4) + (@container-gutter * 2) + (@grid-gutter * 3));
 @width-screen-xs-max:        (@width-screen-sm-min - 1);
 @width-screen-sm-max:        (@width-screen-md-min - 1);
 @width-screen-md-max:        (@width-screen-lg-min - 1);
-@max-width--container:       @width-screen-lg-min;
+@max-width--container-xs:    @width-screen-xs-min;
+@width--container-sm:        @width-screen-sm-min;
+@width--container-md:        @width-screen-md-min;
+@width--container-lg:        @width-screen-lg-min;
+@max-width--container:       @width--container-lg;
 // : applications
-@width--container:                       100%;
 @padding-left--container:                @container-gutter;
-@margin-left--container--grid-item:      @grid-gutter-percent;
+@margin-left--container--grid-item:      @grid-gutter;
 @margin-top--body:                       (@em-unit--v * 2);
 @margin-bottom--body:                    (@em-unit--v * 4);;
 @margin-bottom--page-header:             (@em-unit--v * 2);
@@ -147,7 +150,7 @@
 @margin-right--post-tag-list-item:       (@em-unit--h * 1.5);
 @padding-left--post-next:                (@em-unit--h * 4);
 @text-indent--post-next:                 (@padding-left--post-next * -1);
-@width--post-content-list-style:         (@em-unit--h * 4);
+@width--post-content-list-style:         (@em-unit--h * 8);
 @left--post-content-list-style:          (@width--post-content-list-style * -1);
 @margin-right--post-content-list-style:  (@width--post-content-list-style * -1);
 @padding-right--post-content-list-style: (@em-unit--h * 3);

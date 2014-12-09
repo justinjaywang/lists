@@ -46,12 +46,14 @@ h2 {
 
 // containers
 .container {
-  width: @width--container;
   max-width: @max-width--container;
   padding-left: @padding-left--container;
   padding-right: @padding-left--container;
   .margin-center();
-  background-color: @color-temp;
+}
+.container-item {
+  width: @width--container-item;
+  max-width: 100%;
 }
 .container--narrow-item {
   .margin-center();
@@ -71,32 +73,33 @@ h2 {
   overflow: hidden;
 }
 @media (min-width: @width-screen-lg-min) {
-  .container-item {
-    .container--grid-item-width(4);
+  .container {
+    width: @width--container-lg;
   }
   .container--grid-item:nth-of-type(4n+1) {
     margin-left: 0;
   }
 }
 @media (min-width: @width-screen-md-min) and (max-width: @width-screen-md-max) {
-  .container-item {
-    .container--grid-item-width(3);
+  .container {
+    width: @width--container-md;
   }
   .container--grid-item:nth-of-type(3n+1) {
     margin-left: 0;
   }
 }
 @media (min-width: @width-screen-sm-min) and (max-width: @width-screen-sm-max) {
-  .container-item {
-    .container--grid-item-width(2);
+  .container {
+    width: @width--container-sm;
   }
   .container--grid-item:nth-of-type(2n+1) {
     margin-left: 0;
   }
 }
 @media (max-width: @width-screen-xs-max) {
-  .container-item {
-    .container--grid-item-width(1);
+  .container {
+    width: 100%;
+    max-width: @max-width--container-xs;
   }
   .container--grid-item {
     margin-left: 0;
