@@ -1,7 +1,6 @@
 title: Albums that changed my life
 description:
-date: 2014-12-07 21:21:46
-updated:
+date: 2014-12-05
 tags:
 - music
 

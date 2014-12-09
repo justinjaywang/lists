@@ -1,7 +1,6 @@
 title: Cities I want to visit
 description:
 date: 2014-12-06 09:48:40
-updated:
 tags:
 - bucket lists
 ---

@@ -1,7 +1,6 @@
 title: Favorite movies
-description: For aesthetics as well as for sentimental reasons
+description: For aesthetic as well as sentimental reasons
 date: 2014-12-07 21:13:40
-updated:
 tags:
 - favorites
 
@@ -21,3 +20,4 @@ tags:
 - Little Miss Sunshine
 - Lost in Translation
 - Rush Hour
+- Bottle Rocket

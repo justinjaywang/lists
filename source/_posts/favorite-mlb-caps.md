@@ -1,7 +1,6 @@
 title: Favorite MLB caps
 description: Insignias and colors
-date:
-updated:
+date: 2014-12-05
 tags:
 - favorites
 - sports

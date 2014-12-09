@@ -1,6 +1,6 @@
 title: Weird things
-date: 2014-12-06 09:51:52
 description: When you really think about it
+date: 2014-12-06 09:51:52
 tags:
 - random
 ---

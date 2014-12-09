@@ -1,7 +1,6 @@
 title: Favorite fruits
 description:
-date:
-updated:
+date: 2014-12-04
 tags:
 - favorites
 - food
@@ -16,3 +15,5 @@ tags:
 - grape
 - longan
 - guava
+- cherry
+- fig
