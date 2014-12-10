@@ -12,10 +12,10 @@
   } else if (is_category()){
     title = page.category;
   } else if (is_tag()){
-    title = 'Tagged ' + page.tag;
+    title = 'Lists — “' + page.tag + '”';
   }
   %>
-  <title><% if (title){ %><%= title %> — <% } %><%= config.title %></title>
+  <title><% if (title){ %><%= title %><% } else { %><%= config.title %><% } %></title>
   <meta name="description" content="<%= config.description %>">
   <meta name="author" content="<%= config.author %>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
