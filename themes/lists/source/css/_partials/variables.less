@@ -80,7 +80,7 @@
 @font-weight--h1:   @font-weight-bold;
 @font-weight--h2:   @font-weight--h1;
 // : line-height variables
-@line-height-tighter:  1.16;
+@line-height-tighter:  1.18;
 @line-height-tight:    1.3;
 @line-height-base:     1.36;
 @line-height-loose:    1.5;
@@ -150,8 +150,10 @@
 @padding-right--post-tag-list-before:    (@em-unit--h * 3);
 @padding-right--post-next-link-before:   (@em-unit--h * 3);
 @margin-right--post-tag-list-item:       (@em-unit--h * 1.5);
-@padding-left--post-next:                (@em-unit--h * 4);
-@text-indent--post-next:                 (@padding-left--post-next * -1);
+@padding-left--post-tag-list:            (@em-unit--h * 4);
+@text-indent--post-tag-list:             (@padding-left--post-tag-list * -1);
+@padding-left--post-next:                @padding-left--post-tag-list;
+@text-indent--post-next:                 @text-indent--post-tag-list;
 @width--post-content-list-style:         (@em-unit--h * 8);
 @left--post-content-list-style:          (@width--post-content-list-style * -1);
 @margin-right--post-content-list-style:  (@width--post-content-list-style * -1);

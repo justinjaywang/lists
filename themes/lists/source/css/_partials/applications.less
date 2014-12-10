@@ -168,12 +168,17 @@ h2 {
   display: @display--post-date;
   margin-bottom: @margin-bottom--post-date;
 }
+.post-tag-list {
+  padding-left: @padding-left--post-tag-list;
+  text-indent: @text-indent--post-tag-list;
+}
 .post-tag-list:before {
   content: @content--post-tag-list-before;
   font-style: @font-style--post-tag-list-before;
   padding-right: @padding-right--post-tag-list-before;
 }
 .post-tag-list-item {
+  text-indent: 0;
   display: @display--post-tag-list-item;
   margin-right: @margin-right--post-tag-list-item;
   &:not(:last-child):after {
