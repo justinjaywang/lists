@@ -10,7 +10,7 @@
       title += ' ' + page.year;
     }
   } else if (is_home()) {
-    title = 'Lists Index';
+    title = config.title;
   } else if (is_tag()) {
     title = 'Lists tagged “' + page.tag + '”';
   }
