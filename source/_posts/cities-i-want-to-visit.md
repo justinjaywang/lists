@@ -1,8 +1,8 @@
 title: Cities I want to visit
 description:
-date: 2014-12-06 09:48:40
+date: 2014-12-09 07:22:30
 tags:
-- bucket lists
+- cities
 ---
 
 - Tokyo, Japan

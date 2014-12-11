@@ -1,6 +1,6 @@
 title: Favorite fruits
 description:
-date: 2014-12-04
+date: 2014-12-09 07:22:52
 tags:
 - favorites
 - food
@@ -10,10 +10,10 @@ tags:
 - pomelo
 - fuyu persimmon
 - white peach
+- cherry
+- fig
 - fuji apple
 - blueberry
 - grape
-- longan
 - guava
-- cherry
-- fig
+- longan
