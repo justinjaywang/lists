@@ -4,8 +4,6 @@
 @color-gray-light:   rgba(63,63,63,0.4);
 @color-gray-lighter: rgba(63,63,63,0.16);
 @color-white:        rgb(255,255,255);
-@color-accent:       rgb(128,149,255); // periwinkle
-@color-temp:         rgba(255,0,0,0.05); // TEMP
 // : applications
 @background-color--body:         @color-white;
 @color--body:                    @color-gray-dark;
@@ -109,6 +107,7 @@
 @font-style--page-title--tag:          @font-style-italic;
 @font-style--post-description:         @font-style-italic;
 @font-style--post-footer:              @font-style-italic;
+@font-style--post-date-before:         @font-style-normal;
 @font-style--post-tag-list-before:     @font-style-normal;
 @font-style--post-next-link-before:    @font-style-normal;
 @font-style--post-tag-list-item-after: @font-style-normal;
@@ -143,17 +142,16 @@
 @margin-bottom--page-header:             (@em-unit--v * 2);
 @margin-top--post-content:               (@em-unit--v * 1);
 @margin-bottom--post-content:            (@em-unit--v * 2);
-@margin-bottom--post-date:               (@em-unit--v * 1);
+@margin-bottom--post-date:               (@em-unit--v * 0);
 @height--container--grid-item:           (@em-unit--v * (@container--grid-item-lines + 1));
 @padding-bottom--container--grid-item:   (@em-unit--v * 1 - 0.5em);
 @margin-right--post-title:               (@em-unit--h * 2);
-@padding-right--post-tag-list-before:    (@em-unit--h * 3);
-@padding-right--post-next-link-before:   (@em-unit--h * 3);
+@padding-right--post-date-before:        (@em-unit--h * 3);
+@padding-right--post-tag-list-before:    @padding-right--post-date-before;
+@padding-right--post-next-link-before:   @padding-right--post-date-before;
 @margin-right--post-tag-list-item:       (@em-unit--h * 1.5);
-@padding-left--post-tag-list:            (@em-unit--h * 4);
-@text-indent--post-tag-list:             (@padding-left--post-tag-list * -1);
-@padding-left--post-next:                @padding-left--post-tag-list;
-@text-indent--post-next:                 @text-indent--post-tag-list;
+@padding-left--hanging-indent:           (@em-unit--h * 4);
+@text-indent--hanging-indent:            (@padding-left--hanging-indent * -1);
 @width--post-content-list-style:         (@em-unit--h * 8);
 @left--post-content-list-style:          (@width--post-content-list-style * -1);
 @margin-right--post-content-list-style:  (@width--post-content-list-style * -1);
@@ -171,6 +169,7 @@
 @y--underline:                     (@font-size--body * @line-height--underline);
 
 // content
+@content--post-date-before:         'updated';
 @content--post-tag-list-before:     'tagged';
 @content--post-next-link-before:    'next';
 @content--post-tag-list-item-after: ',';

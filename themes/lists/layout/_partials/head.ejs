@@ -2,17 +2,17 @@
   <meta charset="utf-8">
   <%
   var title = page.title;
-  if (is_archive()){
+  if (is_archive()) {
     title = 'Archive';
-    if (is_month()){
+    if (is_month()) {
       title += ' ' + page.year + '/' + page.month;
-    } else if (is_year()){
+    } else if (is_year()) {
       title += ' ' + page.year;
     }
-  } else if (is_category()){
-    title = page.category;
-  } else if (is_tag()){
-    title = 'Lists — “' + page.tag + '”';
+  } else if (is_home()) {
+    title = 'Lists Index';
+  } else if (is_tag()) {
+    title = 'Lists tagged “' + page.tag + '”';
   }
   %>
   <title><% if (title){ %><%= title %><% } else { %><%= config.title %><% } %></title>

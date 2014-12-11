@@ -164,13 +164,20 @@ h2 {
 .post-footer {
   font-style: @font-style--post-footer;
 }
+.post-date,
+.post-tag-list,
+.post-next {
+  padding-left: @padding-left--hanging-indent;
+  text-indent: @text-indent--hanging-indent;
+}
 .post-date {
   display: @display--post-date;
   margin-bottom: @margin-bottom--post-date;
 }
-.post-tag-list {
-  padding-left: @padding-left--post-tag-list;
-  text-indent: @text-indent--post-tag-list;
+.post-date:before {
+  content: @content--post-date-before;
+  font-style: @font-style--post-date-before;
+  padding-right: @padding-right--post-date-before;
 }
 .post-tag-list:before {
   content: @content--post-tag-list-before;
@@ -185,10 +192,6 @@ h2 {
     content: @content--post-tag-list-item-after;
     font-style: @font-style--post-tag-list-item-after;
   }
-}
-.post-next {
-  padding-left: @padding-left--post-next;
-  text-indent: @text-indent--post-next;
 }
 .post-next-link:before {
   content: @content--post-next-link-before;
