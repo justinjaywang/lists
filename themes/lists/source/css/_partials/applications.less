@@ -115,14 +115,19 @@ h2 {
 }
 .page-title {
   text-transform: @text-transform--page-title;
-  text-align: @text-align--page-title;  
+  text-align: @text-align--page-title;
+}
+.page-title:not(.page-title--tag) {
+  font-family: @font-family--page-title;
+  font-weight: @font-weight--page-title;
 }
 .page-title--tag {
   font-style: @font-style--page-title--tag;
 }
-.page-title--tag:hover {
-  text-decoration: @text-decoration--page-title--tag;
-  color: @color--title--tag;
+.page-title--tag:before {
+  content: @content--post-title--tag-before;
+  font-style: @font-style--page-title--tag-before;
+  padding-right: @padding-right--page-title--tag-before;
 }
 
 // page-main
