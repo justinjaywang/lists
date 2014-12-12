@@ -1,5 +1,5 @@
 title: Favorite band names
-date: 2014-12-09 19:53:28
+date: 2013-01-30
 description:
 tags:
 - favorites

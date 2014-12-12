@@ -1,8 +1,7 @@
 title: Cities I want to visit
 description:
-date: 2014-12-09 07:22:30
+date: 2012-05-23
 tags:
-- cities
 ---
 
 - Tokyo, Japan

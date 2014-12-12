@@ -1,12 +1,14 @@
 title: Favorite fragrances
 description: Or, Aromas I adore
-date: 2014-12-09 07:23:18
+date: 2014-12-11 16:04:11
 tags:
 - favorites
 ---
 
-- vanilla
 - almond extract
-- that pink soap in public restrooms
+- coffee
+- vanilla
+- coconut
 - grapefruit
 - rosemary
+- cilantro

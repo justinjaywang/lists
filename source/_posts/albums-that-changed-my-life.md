@@ -1,10 +1,10 @@
 title: Albums that changed my life
 description:
-date: 2014-12-09 07:22:12
+date: 2014-03-05
 tags:
 - music
-
+- personal history
 ---
 
-- Radiohead – *OK Computer*
-- Belle & Sebastian – *If You're Feeling Sinister*
+- *OK Computer* by Radiohead
+- *If You're Feeling Sinister* by Belle & Sebastian

@@ -1,11 +1,13 @@
 title: Design principles
-date: 2014-12-10 14:26:03
+date: 2014-12-11 20:01:04
 description:
 tags:
 - design
+- personal
 ---
 
 - simplicity
+- practiced restaint
 - timelessness
 - maintainability
 - [*wabi-sabi*](http://en.wikipedia.org/wiki/Wabi-sabi)

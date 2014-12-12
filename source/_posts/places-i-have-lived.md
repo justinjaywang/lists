@@ -1,8 +1,8 @@
 title: Places I have lived
-date: 2014-12-09 09:45:31
+date: 2013-01-30
 description:
 tags:
-- compilations
+- personal history
 ---
 
 - Hudson, MA, USA

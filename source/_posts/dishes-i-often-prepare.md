@@ -1,17 +1,22 @@
 title: Dishes I often prepare
-date: 2014-12-09 10:58:24
+date: 2014-12-11 16:15:35
 description:
 tags:
 - food
-- cooking
 ---
 
-- chicken and forty cloves
-- Taiwanese cabbage
 - Brussels sprouts, caramelized onions, bacon
 - soy orange braised meat
-- roasted rosemary potatoes
-- salmon with asparagus and dill
+- roasted gold potatoes with rosemary
+- baked salmon with asparagus and dill
+- sautéed Taiwanese cabbage
+- Malaysian chicken curry
+- [*lu rou fan*](http://en.wikipedia.org/wiki/Minced_pork_rice)
+- roasted root vegetables
+- sautéed zucchini and crookneck squash
+- chicken and forty cloves
 - braised pork shoulder
-- chicken soup
 - coleslaw
+- chicken soup
+- roasted kale
+- salted turnip omelette

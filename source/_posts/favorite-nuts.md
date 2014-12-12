@@ -1,5 +1,5 @@
 title: Favorite nuts
-date: 2014-12-09 19:58:05
+date: 2014-12-11 19:03:18
 description: Legumes, too
 tags:
 - favorites
@@ -12,3 +12,5 @@ tags:
 - almond
 - hazelnut
 - macadamia
+- pecan
+- walnut

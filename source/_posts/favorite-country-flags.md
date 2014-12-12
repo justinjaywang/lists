@@ -1,5 +1,5 @@
 title: Favorite country flags
-date: 2014-12-09 20:26:18
+date: 2014-12-11 16:07:50
 description:
 tags:
 - favorites
@@ -9,8 +9,9 @@ tags:
 - South Africa
 - Greece
 - Switzerland
-- United Kingdom
 - Jamaica
-- Germany
-- Italy
+- United Kingdom
 - Sweden
+- France
+- Italy
+- Belgium
