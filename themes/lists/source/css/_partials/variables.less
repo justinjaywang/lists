@@ -10,7 +10,8 @@
 @color--a:                       inherit;
 @color--post-content-list-style: @color-gray-light;
 @color--underline:               @color-gray-lighter;
-@color--title--tag:              @color-gray-light;
+@color--title-tag:               @color-gray-light;
+@color--page-title:              @color-gray-dark;
 
 // sizing
 @size-tera:         3;
@@ -68,18 +69,19 @@
 @font-family--body:            @font-family-serif;
 @font-family--h1:              @font-family-sans-serif;
 @font-family--h2:              @font-family--h1;
-@font-family--page-title:      @font-family-serif;
-@font-family--page-title--tag: @font-family-serif;
+@font-family--page-title:      @font-family-sans-serif;
+@font-family--page-title-tag:  @font-family-serif;
 // : font-weight variables
 @font-weight-bold:      700;
 @font-weight-semibold:  600;
 @font-weight-normal:    400;
 @font-weight-semilight: 300;
 // : font-weight applications
-@font-weight--body:       @font-weight-normal;
-@font-weight--h1:         @font-weight-bold;
-@font-weight--h2:         @font-weight--h1;
-@font-weight--page-title: @font-weight-normal;
+@font-weight--body:           @font-weight-normal;
+@font-weight--h1:             @font-weight-bold;
+@font-weight--h2:             @font-weight--h1;
+@font-weight--page-title:     @font-weight-bold;
+@font-weight--page-title-tag: @font-weight-normal;
 // : line-height variables
 @line-height-tighter:  1.18;
 @line-height-tight:    1.3;
@@ -104,8 +106,7 @@
 @font-style-normal: normal;
 @font-style-italic: italic;
 // : font-style applications
-@font-style--page-title--tag:          @font-style-italic;
-@font-style--page-title--tag-before:   @font-style-normal;
+@font-style--page-title-tag:           @font-style-italic;
 @font-style--post-description:         @font-style-italic;
 @font-style--post-footer:              @font-style-italic;
 @font-style--post-date-before:         @font-style-normal;
@@ -115,16 +116,18 @@
 
 // sizing and spacing
 // : variables
-@em-unit--v:                 @font-size--body * @line-height--body;
+@em-unit--v:                 (@font-size--body * @line-height--body);
 @em-unit--h:                 (@size-rem-base / 4);
-@container-gutter:           36px;
-@grid-gutter:                56px;
-@container--grid-item-lines: 2;
-@width--container-item:      280px;
+@hanging-indent:             (@em-unit--h * 6);
+@container-gutter:           16px;
+@grid-gutter:                64px;
+@width--container-item:      320px;
+@container--grid-item-lines: 4;
 @width-screen-xs-min:        ((@width--container-item * 1) + (@container-gutter * 2) + (@grid-gutter * 0));
 @width-screen-sm-min:        ((@width--container-item * 2) + (@container-gutter * 2) + (@grid-gutter * 1));
 @width-screen-md-min:        ((@width--container-item * 3) + (@container-gutter * 2) + (@grid-gutter * 2));
 @width-screen-lg-min:        ((@width--container-item * 4) + (@container-gutter * 2) + (@grid-gutter * 3));
+@width-screen-xxs-max:       ((@width-screen-xs-min - 1) + (@container-gutter * 4));
 @width-screen-xs-max:        (@width-screen-sm-min - 1);
 @width-screen-sm-max:        (@width-screen-md-min - 1);
 @width-screen-md-max:        (@width-screen-lg-min - 1);
@@ -136,24 +139,24 @@
 // : applications
 @padding-left--container:                @container-gutter;
 @margin-left--container--grid-item:      @grid-gutter;
-@margin-top--body:                       (@em-unit--v * 2);
+@margin-top--body:                       (@em-unit--v * 1);
 @margin-bottom--body:                    (@em-unit--v * 4);
 @margin-bottom--page-header:             (@em-unit--v * 2);
 @margin-bottom--page-header--post:       (@em-unit--v * 2);
 @margin-top--post-content:               (@em-unit--v * 1);
 @margin-bottom--post-content:            (@em-unit--v * 2);
 @margin-bottom--post-date:               (@em-unit--v * 0);
-@height--container--grid-item:           (@em-unit--v * (@container--grid-item-lines + 1));
-@padding-bottom--container--grid-item:   (@em-unit--v * 1 - 0.5em);
+// @height--container--grid-item:           (@em-unit--v * (@container--grid-item-lines + 1));
+@height--container--grid-item:           auto;
+@padding-bottom--container--grid-item:   (@em-unit--v * 1);
 @margin-right--post-title:               (@em-unit--h * 2);
-@padding-right--page-title--tag-before:  (@em-unit--h * 1);
 @padding-right--post-date-before:        (@em-unit--h * 3);
 @padding-right--post-tag-list-before:    @padding-right--post-date-before;
 @padding-right--post-next-link-before:   @padding-right--post-date-before;
 @margin-right--post-tag-list-item:       (@em-unit--h * 1.5);
-@padding-left--hanging-indent:           (@em-unit--h * 4);
+@padding-left--hanging-indent:           @hanging-indent;
 @text-indent--hanging-indent:            (@padding-left--hanging-indent * -1);
-@width--post-content-list-style:         (@em-unit--h * 8);
+@width--post-content-list-style:         @padding-left--hanging-indent;
 @left--post-content-list-style:          (@width--post-content-list-style * -1);
 @margin-right--post-content-list-style:  (@width--post-content-list-style * -1);
 @padding-right--post-content-list-style: (@em-unit--h * 3);
@@ -170,7 +173,6 @@
 @y--underline:                     (@font-size--body * @line-height--underline);
 
 // content
-@content--post-title--tag-before:   '×';
 @content--post-date-before:         'updated';
 @content--post-tag-list-before:     'tagged';
 @content--post-next-link-before:    'next';

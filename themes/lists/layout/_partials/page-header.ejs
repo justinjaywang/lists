@@ -1,9 +1,5 @@
 <header class="page-header container <% if (is_post()) { %>page-header--post<% } %>">
   <a href="<%= config.root %>" class="page-header-link container-item">
-    <% if (page.tag) { %>
-    <h4 class="page-title page-title--tag"><%= page.tag %></h4>
-    <% } else { %>
-    <h4 class="page-title"><%= config.title %></h4>
-    <% } %>
+    <h4 class="page-title"><%= config.title %><% if (page.tag) { %> — <span class="page-title-tag"><%= page.tag %></span><% } %></h4>
   </a>
 </header>
