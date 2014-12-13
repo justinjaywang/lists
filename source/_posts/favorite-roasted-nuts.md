@@ -1,4 +1,4 @@
-title: Favorite nuts
+title: Favorite roasted nuts
 date: 2014-12-11 19:03:18
 description: Legumes, too
 tags:
@@ -13,4 +13,7 @@ tags:
 - hazelnut
 - macadamia
 - pecan
+- broad bean
+- pine nut
 - walnut
+- soybean

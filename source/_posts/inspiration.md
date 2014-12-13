@@ -5,7 +5,7 @@ tags:
 - personal
 ---
 
-- humanity
+- people
 - nature
 - history
 - love

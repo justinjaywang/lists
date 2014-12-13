@@ -10,4 +10,4 @@ date: 2014-12-11 19:42:54
 - eating well
 - exercise
 - nature and the outdoors
-- art
+- art, music, film

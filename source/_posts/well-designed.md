@@ -2,20 +2,26 @@ title: Well-designed
 description: "Products, brands, experiences"
 tags:
   - design
-date: 2014-12-11 19:48:34
+date: 2014-12-12 21:01:26
 ---
 
-- [Clear](http://realmacsoftware.com/clear)
-- [Medium](https://medium.com/)
-- [Dropbox](https://www.dropbox.com/home)
 - Apple
-- New York Yankees
+- Clear
+- Medium
+- Dropbox
 - Southwest Airlines
-- [Rdio](http://www.rdio.com/)
-- [SoundCloud](https://soundcloud.com/)
-- Jawbone
 - Zappos
+- Amazon
+- The NBA
+- Rdio
+- SoundCloud
+- Dyson
+- Jawbone
 - IKEA
 - American Apparel
 - Uniqlo
-- Dyson
+- New York Yankees
+- Green Bay Packers
+- [Feltron](http://feltron.com/)
+- The New York Times [interactive stories](http://www.nytinnovation.com/)
+- Wes Anderson films

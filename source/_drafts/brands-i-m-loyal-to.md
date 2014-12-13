@@ -1,5 +1,4 @@
 title: "Brands I'm loyal to"
-date: 2014-12-11 19:51:19
 description:
 tags:
 

@@ -9,4 +9,6 @@ tags:
 - Chinese New Year
 - Christmas
 - 4th of July
+- [Duanwu Festival](http://en.wikipedia.org/wiki/Duanwu_Festival)
 - Memorial Day
+- [Mid-Autumn Festival](http://en.wikipedia.org/wiki/Mid-Autumn_Festival)
