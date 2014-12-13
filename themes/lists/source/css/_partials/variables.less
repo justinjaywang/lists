@@ -103,14 +103,15 @@
 @font-style--post-footer:              @font-style-italic;
 @font-style--post-date-before:         @font-style-normal;
 @font-style--post-tag-list-before:     @font-style-normal;
-@font-style--post-next-link-before:    @font-style-normal;
+@font-style--post-nav-prev-before:     @font-style-normal;
+@font-style--post-nav-next-before:     @font-style-normal;
 @font-style--post-tag-list-item-after: @font-style-normal;
 
 // sizing and spacing
 // : variables
 @em-unit--v:           (@font-size--body * @line-height--body);
 @em-unit--h:           (@size-rem-base / 4);
-@hanging-indent:       28px;
+@hanging-indent:       36px;
 @container-alley:      300px;
 @container-gutter:     20px;
 @max-width--container: ((@container-alley) + (@container-gutter * 2));
@@ -124,17 +125,19 @@
 @margin-bottom--post-header:             (@em-unit--v * 1);
 @margin-bottom--post-content:            (@em-unit--v * 2);
 @margin-bottom--post-date:               (@em-unit--v * 0);
+@margin-bottom--post-tag-list:           (@em-unit--v * 0);
 @margin-right--post-title:               (@em-unit--h * 2);
 @padding-right--post-date-before:        (@em-unit--h * 3);
 @padding-right--post-tag-list-before:    @padding-right--post-date-before;
-@padding-right--post-next-link-before:   @padding-right--post-date-before;
+@padding-right--post-nav-prev-before:    @padding-right--post-date-before;
+@padding-right--post-nav-next-before:    @padding-right--post-date-before;
 @margin-right--post-tag-list-item:       (@em-unit--h * 1.5);
 @padding-left--hanging-indent:           @hanging-indent;
 @text-indent--hanging-indent:            (@padding-left--hanging-indent * -1);
 @width--post-content-list-style:         @padding-left--hanging-indent;
 @left--post-content-list-style:          (@width--post-content-list-style * -1);
 @margin-right--post-content-list-style:  (@width--post-content-list-style * -1);
-@padding-right--post-content-list-style: (@em-unit--h * 3);
+@padding-right--post-content-list-style: (@em-unit--h * 2.5);
 
 // miscellaneous
 @display--page-header-link:        block;
@@ -149,5 +152,6 @@
 // content
 @content--post-date-before:         'updated';
 @content--post-tag-list-before:     'tagged';
-@content--post-next-link-before:    'next';
+@content--post-nav-prev-before:     'prev';
+@content--post-nav-next-before:     'next';
 @content--post-tag-list-item-after: ',';
