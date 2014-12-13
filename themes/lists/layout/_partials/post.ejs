@@ -6,9 +6,14 @@
   <footer class="post-footer">
     <%- partial('post-date', {date_format: config.date_format}) %>
     <%- partial('post-tag-list') %>
+    <% if (post.prev) { %>
+    <section class="post-nav">
+      <a href="<%= url_for(post.prev.path) %>" class="post-nav-prev" id="prev"><%= post.prev.title %></a>
+    </section>
+    <% } %>
     <% if (post.next) { %>
-    <section class="post-next">
-      <a href="<%= url_for(post.next.path) %>" class="post-next-link"><%= post.next.title %></a>
+    <section class="post-nav">
+      <a href="<%= url_for(post.next.path) %>" class="post-nav-next" id="next"><%= post.next.title %></a>
     </section>
     <% } %>
   </footer>
