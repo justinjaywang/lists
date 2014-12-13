@@ -10,7 +10,6 @@
 @color--a:                       inherit;
 @color--post-content-list-style: @color-gray-light;
 @color--underline:               @color-gray-lighter;
-@color--title-tag:               @color-gray-light;
 @color--page-title:              @color-gray-dark;
 
 // sizing
@@ -60,38 +59,31 @@
 @font-size--h1:                      @font-size-em-base;
 @font-size--h2:                      @font-size-em-base;
 @font-size--post-content-list-style: @font-size-em-small;
-@font-size--container--grid-item:    @font-size--html;
 // : font-family variables
 @font-family-sans-serif: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:      "PT Serif", Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:  Consolas, Monaco, "Andale Mono", monospace;
 // : font-family applications
-@font-family--body:            @font-family-serif;
-@font-family--h1:              @font-family-sans-serif;
-@font-family--h2:              @font-family--h1;
-@font-family--page-title:      @font-family-sans-serif;
-@font-family--page-title-tag:  @font-family-serif;
+@font-family--body: @font-family-serif;
+@font-family--h1:   @font-family-sans-serif;
+@font-family--h2:   @font-family--h1;
 // : font-weight variables
 @font-weight-bold:      700;
 @font-weight-semibold:  600;
 @font-weight-normal:    400;
 @font-weight-semilight: 300;
 // : font-weight applications
-@font-weight--body:           @font-weight-normal;
-@font-weight--h1:             @font-weight-bold;
-@font-weight--h2:             @font-weight--h1;
-@font-weight--page-title:     @font-weight-bold;
-@font-weight--page-title-tag: @font-weight-normal;
+@font-weight--body: @font-weight-normal;
+@font-weight--h1:   @font-weight-bold;
+@font-weight--h2:   @font-weight--h1;
 // : line-height variables
-@line-height-tighter:  1.18;
-@line-height-tight:    1.3;
-@line-height-base:     1.36;
-@line-height-loose:    1.5;
+@line-height-tight: 1.18;
+@line-height-base:  1.36;
 // : line-height applications
 @line-height--body:      @line-height-base;
 @line-height--h1:        @line-height-base;
 @line-height--h2:        @line-height-base;
-@line-height--underline: @line-height-tighter;
+@line-height--underline: @line-height-tight;
 // : letter-spacing variables
 @letter-spacing-tight: -0.015em;
 @letter-spacing-base:  0;
@@ -116,39 +108,22 @@
 
 // sizing and spacing
 // : variables
-@em-unit--v:                 (@font-size--body * @line-height--body);
-@em-unit--h:                 (@size-rem-base / 4);
-@hanging-indent:             (@em-unit--h * 6);
-@container-gutter:           16px;
-@grid-gutter:                64px;
-@width--container-item:      320px;
-@container--grid-item-lines: 4;
-@width-screen-xs-min:        ((@width--container-item * 1) + (@container-gutter * 2) + (@grid-gutter * 0));
-@width-screen-sm-min:        ((@width--container-item * 2) + (@container-gutter * 2) + (@grid-gutter * 1));
-@width-screen-md-min:        ((@width--container-item * 3) + (@container-gutter * 2) + (@grid-gutter * 2));
-@width-screen-lg-min:        ((@width--container-item * 4) + (@container-gutter * 2) + (@grid-gutter * 3));
-@width-screen-xxs-max:       ((@width-screen-xs-min - 1) + (@container-gutter * 4));
-@width-screen-xs-max:        (@width-screen-sm-min - 1);
-@width-screen-sm-max:        (@width-screen-md-min - 1);
-@width-screen-md-max:        (@width-screen-lg-min - 1);
-@max-width--container-xs:    @width-screen-xs-min;
-@width--container-sm:        @width-screen-sm-min;
-@width--container-md:        @width-screen-md-min;
-@width--container-lg:        @width-screen-lg-min;
-@max-width--container:       @width--container-lg;
+@em-unit--v:           (@font-size--body * @line-height--body);
+@em-unit--h:           (@size-rem-base / 4);
+@hanging-indent:       28px;
+@container-alley:      300px;
+@container-gutter:     20px;
+@max-width--container: ((@container-alley) + (@container-gutter * 2));
+@width-screen-xs-max:  (@max-width--container + (@hanging-indent * 2));
 // : applications
 @padding-left--container:                @container-gutter;
-@margin-left--container--grid-item:      @grid-gutter;
 @margin-top--body:                       (@em-unit--v * 1);
 @margin-bottom--body:                    (@em-unit--v * 4);
 @margin-bottom--page-header:             (@em-unit--v * 2);
 @margin-bottom--page-header--post:       (@em-unit--v * 2);
-@margin-top--post-content:               (@em-unit--v * 1);
+@margin-bottom--post-header:             (@em-unit--v * 1);
 @margin-bottom--post-content:            (@em-unit--v * 2);
 @margin-bottom--post-date:               (@em-unit--v * 0);
-// @height--container--grid-item:           (@em-unit--v * (@container--grid-item-lines + 1));
-@height--container--grid-item:           auto;
-@padding-bottom--container--grid-item:   (@em-unit--v * 1);
 @margin-right--post-title:               (@em-unit--h * 2);
 @padding-right--post-date-before:        (@em-unit--h * 3);
 @padding-right--post-tag-list-before:    @padding-right--post-date-before;
@@ -162,7 +137,6 @@
 @padding-right--post-content-list-style: (@em-unit--h * 3);
 
 // miscellaneous
-@display--container--grid-item:    inline-block;
 @display--page-header-link:        block;
 @display--post-title:              inline;
 @display--post-link:               block;
