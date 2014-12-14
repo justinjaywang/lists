@@ -3,7 +3,7 @@
 
   var leftKeyCode = 37;
   var rightKeyCode = 39;
-  var indexKeyCode = 73; // i
+  // var indexKeyCode = 73; // i
 
   $(document).keydown(function(e) {
     var location = false; // instantiate
@@ -17,11 +17,11 @@
       if (next) {
         location = next.href;
       }
-    } else if (e.keyCode == indexKeyCode) {
-      var home = document.getElementById('home');
-      if (home) {
-        location = home.href;
-      }
+    // } else if (e.keyCode == indexKeyCode) {
+    //   var home = document.getElementById('home');
+    //   if (home) {
+    //     location = home.href;
+    //   }
     }
     if (location) {
       window.location.href = location;
