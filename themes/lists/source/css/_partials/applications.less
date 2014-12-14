@@ -89,6 +89,16 @@ h2 {
 .post-content {
   margin-bottom: @margin-bottom--post-content;
 }
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  font-style: @font-style--post-content-heading;
+}
 @media (max-width: @width-screen-xs-max) {
   .post-content ul {
     margin-left: @width--post-content-list-style;
@@ -97,6 +107,7 @@ h2 {
 .post-content ul {
   list-style-type: none;
   counter-reset: decimal-counter;
+  margin-bottom: @margin-bottom--post-content-ul;
 }
 .post-content ul li:before {
   content: counter(decimal-counter);
