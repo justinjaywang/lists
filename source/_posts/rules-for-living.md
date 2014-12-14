@@ -33,11 +33,11 @@ date: 2014-12-12 22:58:10
 description:
 ---
 
-- Be honest.
-- Be deliberate.
 - Do things the right way.
 - Do things with style.
 - Practice proper technique.
+- Be honest.
+- Be deliberate.
 - Embrace discomfort.
 - Know what you don't know.
 - Keep your head.

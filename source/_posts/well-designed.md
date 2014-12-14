@@ -2,7 +2,7 @@ title: Well-designed
 description: "Products, brands, experiences"
 tags:
   - design
-date: 2014-12-12 21:01:26
+date: 2014-12-13 16:16:28
 ---
 
 - Apple
@@ -25,3 +25,5 @@ date: 2014-12-12 21:01:26
 - [Feltron](http://feltron.com/)
 - The New York Times [interactive stories](http://www.nytinnovation.com/)
 - Wes Anderson films
+- tennis
+- soccer

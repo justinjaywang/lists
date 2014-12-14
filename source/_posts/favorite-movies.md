@@ -1,5 +1,5 @@
 title: Favorite movies
-description: For aesthetic as well as sentimental reasons
+description: For aesthetic and sentimental reasons
 date: 2014-12-09 07:24:44
 tags:
 - favorites
@@ -7,22 +7,22 @@ tags:
 
 ---
 
-- The Truman Show
-- Amélie
-- Fantastic Mr. Fox
-- The Squid and the Whale
-- Fargo
-- Yi Yi: A One and a Two
-- Ratatouille
-- Ocean's Eleven
-- The Big Lebowski
-- Punch-Drunk Love
-- Bottle Rocket
-- Rush Hour
-- Lost in Translation
-- The Royal Tenenbaums
-- Pulp Fiction
-- Eternal Sunshine of the Spotless Mind
-- Little Miss Sunshine
-- Garden State
-- The Science of Sleep
+- The Truman Show (1998)
+- Amélie (2001)
+- Fantastic Mr. Fox (2009)
+- The Squid and the Whale (2005)
+- Fargo (1996)
+- Yi Yi: A One and a Two (2000)
+- Ratatouille (2007)
+- Ocean's Eleven (2001)
+- The Big Lebowski (1998)
+- Punch-Drunk Love (2002)
+- Bottle Rocket (1996)
+- Rush Hour (1998)
+- Lost in Translation (2003)
+- The Royal Tenenbaums (2001)
+- Pulp Fiction (1994)
+- Eternal Sunshine of the Spotless Mind (2004)
+- Garden State (2004)
+- Little Miss Sunshine (2006)
+- The Science of Sleep (2006)

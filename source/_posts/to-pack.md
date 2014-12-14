@@ -14,7 +14,8 @@ tags:
 - socks
 - Vans slip-ons
 - Nike running shoes
-- toiletry bag with: shampoo, body wash, toothbrush and paste, pomade, floss, deodorant, razor
+- baseball cap
+- toiletry bag with: shampoo, body wash, toothbrush and paste, pomade, floss, deodorant, grooming kit, razor
 - iPhone with charger
 - MacBook with charger
 - Olympus PEN

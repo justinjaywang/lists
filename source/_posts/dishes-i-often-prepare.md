@@ -35,3 +35,4 @@ tags:
 - fried rice
 - Taiwanese cold sesame noodles
 - soybean sprouts salad
+- sweet peanut soup
