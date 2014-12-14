@@ -4,7 +4,11 @@
     <%- post.content %>
   </section>
   <footer class="post-footer">
-    <% if (isPage) { return; } else { %>
+    <% if (isPage) { %>
+      <section class="post-nav">
+        <a href="<%= config.root %>">&larr; return</a>
+      </section>
+    <% } else { %>
       <%- partial('post-date', {date_format: config.date_format}) %>
       <%- partial('post-tag-list') %>
       <% if (post.prev) { %>
