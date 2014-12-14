@@ -1,6 +1,6 @@
 <%- partial('_partials/page-header', {}, {cache: !config.relative_link}) %>
 
-<main class="page-main container container--grid">
+<main class="page-main container">
   <% page.posts.each(function(post){ %>
     <%- partial('_partials/post-header', {post: post, isIndex: true}) %>
   <% }) %>

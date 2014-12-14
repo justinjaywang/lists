@@ -1,4 +1,4 @@
-<header class="page-header container <% if (is_post()) { %>page-header--post<% } %>">
+<header class="page-header <% if (is_post()) { %>page-header--post<% } %>">
   <a href="<%= config.root %>" class="page-header-link container-item" id="home">
     <h4 class="page-title"><%= config.title %><% if (page.tag) { %> — <span class="page-title-tag"><%= page.tag %></span><% } %></h4>
   </a>
