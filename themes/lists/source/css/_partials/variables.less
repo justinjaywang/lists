@@ -99,6 +99,7 @@
 @font-style-italic: italic;
 // : font-style applications
 @font-style--page-title-tag:           @font-style-italic;
+@font-style--page-footer:              @font-style-italic;
 @font-style--post-description:         @font-style-italic;
 @font-style--post-content-heading:     @font-style-italic;
 @font-style--post-footer:              @font-style-italic;
@@ -120,10 +121,11 @@
 // : applications
 @padding-left--container:                @container-gutter;
 @margin-top--body:                       (@em-unit--v * 1);
-@margin-bottom--body:                    (@em-unit--v * 1);
+@margin-bottom--body:                    (@em-unit--v * 4);
 @margin-bottom--page-header:             (@em-unit--v * 2);
 @margin-bottom--page-header--post:       (@em-unit--v * 2);
 @margin-bottom--post-header:             (@em-unit--v * 1);
+@margin-bottom--page-main--index:        (@em-unit--v * 2);
 @margin-bottom--page-main:               (@em-unit--v * 4);
 @margin-bottom--post-content:            (@em-unit--v * 2);
 @margin-bottom--post-content-ul:         (@em-unit--v * 1);
@@ -149,7 +151,7 @@
 @display--post-date:               block;
 @display--post-tag-list-item:      inline-block;
 @text-align--page-title:           center;
-@text-align--page-footer:          @text-align--page-title;
+@text-align--page-footer:          left;
 @y--underline:                     (@font-size--body * @line-height--underline);
 
 // content
