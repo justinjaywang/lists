@@ -6,24 +6,25 @@
   var indexKeyCode = 73; // i
 
   $(document).keydown(function(e) {
+    var location = false; // instantiate
     if (e.keyCode == leftKeyCode) {
-      e.preventDefault();
       var prev = document.getElementById('prev');
       if (prev) {
-        window.location.href = prev.href;
+        location = prev.href;
       }
     } else if (e.keyCode == rightKeyCode) {
-      e.preventDefault();
       var next = document.getElementById('next');
       if (next) {
-        window.location.href = next.href;
+        location = next.href;
       }
     } else if (e.keyCode == indexKeyCode) {
-      e.preventDefault();
       var home = document.getElementById('home');
       if (home) {
-        window.location.href = home.href;
+        location = home.href;
       }
+    }
+    if (location) {
+      window.location.href = location;
     }
   });
 
