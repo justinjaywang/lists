@@ -2,20 +2,53 @@ title: Favorite sports uniforms
 tags:
   - sports
   - design
-date: 2014-12-11 18:45:51
-description:
+date: 2014-12-13 21:07:58
+description: Current standard home and away sets
 ---
 
-- Detroit Red Wings (NHL)
-- Los Angeles Dodgers (MLB)
-- New York Yankees (MLB)
-- New York Rangers (NHL)
-- Chicago Blackhawks (NHL)
-- Green Bay Packers (NFL)
-- Chicago Bears (NFL)
-- Oakland Raiders (NFL)
-- Oakland Athletics (MLB)
-- Boston Celtics (NBA)
-- New York Giants (NFL)
-- Washington Redskins (NFL)
-- Cleveland Browns (NFL)
+## Baseball
+
+- Los Angeles Dodgers
+- New York Yankees
+- Oakland Athletics
+- Cleveland Indians
+- St. Louis Cardinals
+- Detroit Tigers
+- Pittsburgh Pirates
+- San Francisco Giants
+
+## Basketball
+
+- Boston Celtics
+- New York Knicks
+- UCLA Bruins
+- Los Angeles Lakers
+- Brooklyn Nets
+
+## Football 
+
+- Green Bay Packers
+- Michigan Wolverines
+- Chicago Bears
+- Penn State Nittany Lions
+- Alabama Crimson Tide
+- Oakland Raiders
+- New York Giants
+- Cleveland Browns
+- BYU Cougars
+- USC Trojans
+- LSU Tigers
+- Ohio State Buckeyes
+- Indianapolis Colts
+- Washington Redskins
+- Pittsburgh Steelers
+
+## Hockey
+
+- Detroit Red Wings
+- New York Rangers
+- Chicago Blackhawks
+- Montreal Canadiens
+- Boston Bruins
+- Vancouver Canucks
+- Florida Panthers

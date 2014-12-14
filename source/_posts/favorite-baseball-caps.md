@@ -13,6 +13,6 @@ tags:
 - Atlanta Braves
 - Cincinnati Reds
 - New York Mets
+- New York Yankees
 - Pittsburgh Pirates
 - Kansas City Royals
-- New York Yankees
