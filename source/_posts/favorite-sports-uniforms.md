@@ -28,16 +28,15 @@ description: Current standard home and away sets
 ## Football 
 
 - Green Bay Packers
-- Michigan Wolverines
 - Chicago Bears
+- Michigan Wolverines
 - Penn State Nittany Lions
 - Alabama Crimson Tide
 - Oakland Raiders
 - New York Giants
 - Cleveland Browns
-- BYU Cougars
-- USC Trojans
 - LSU Tigers
+- BYU Cougars
 - Ohio State Buckeyes
 - Indianapolis Colts
 - Washington Redskins
