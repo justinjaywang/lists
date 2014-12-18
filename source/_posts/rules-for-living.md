@@ -29,7 +29,7 @@ scratch:
   - "Be natural. Don't be contrived. At least don't appear like it."
   - "Don't chase girls. Especially not the pretty ones."
   - "Don't be loud. It's annoying. Speak with a purpose."
-date: 2014-12-12 22:58:10
+date: 2014-12-16 08:06:41
 description:
 ---
 
@@ -40,8 +40,8 @@ description:
 - Be deliberate.
 - Embrace discomfort.
 - Know what you don't know.
-- Keep your head.
-- Do things that are mostly sustainable.
+- Keep your composure.
+- Mostly do things that are sustainable.
 - Never let anyone else slow you down.
 - Never feel sorry for yourself.
 - Love what you do.

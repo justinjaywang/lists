@@ -2,7 +2,7 @@ title: Favorite sports uniforms
 tags:
   - sports
   - design
-date: 2014-12-13 21:07:58
+date: 2014-12-16 08:05:46
 description: Current standard home and away sets
 ---
 
@@ -45,8 +45,8 @@ description: Current standard home and away sets
 ## Hockey
 
 - Detroit Red Wings
-- New York Rangers
 - Chicago Blackhawks
+- New York Rangers
 - Montreal Canadiens
 - Boston Bruins
 - Vancouver Canucks
