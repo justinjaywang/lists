@@ -2,7 +2,7 @@ title: Favorite sports uniforms
 tags:
   - sports
   - design
-date: 2014-12-16 08:05:46
+date: 2014-12-25 07:54:49
 description: Current standard home and away sets
 ---
 
@@ -11,11 +11,11 @@ description: Current standard home and away sets
 - Los Angeles Dodgers
 - New York Yankees
 - Oakland Athletics
-- Cleveland Indians
 - St. Louis Cardinals
 - Detroit Tigers
 - Pittsburgh Pirates
 - San Francisco Giants
+- Boston Red Sox
 
 ## Basketball
 
@@ -23,12 +23,13 @@ description: Current standard home and away sets
 - New York Knicks
 - UCLA Bruins
 - Los Angeles Lakers
+- Utah Jazz
 - Brooklyn Nets
 
 ## Football 
 
-- Green Bay Packers
 - Chicago Bears
+- Green Bay Packers
 - Michigan Wolverines
 - Penn State Nittany Lions
 - Alabama Crimson Tide

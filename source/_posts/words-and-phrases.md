@@ -1,5 +1,5 @@
 title: Words and phrases
-date: 2014-12-16 15:47:32
+date: 2014-12-23 20:58:24
 description:
 tags:
 ---
@@ -154,3 +154,14 @@ tags:
 - dusk
 - boomerang
 - bayou
+- mausoleum
+- menagerie
+- comatose
+- tango
+- these things take time
+- huddle
+- periwinkle
+- loiter
+- flabbergast
+- agave
+- Badlands
