@@ -1,5 +1,5 @@
 title: Dishes I often prepare
-date: 2014-12-12 13:15:36
+date: 2014-12-27 20:27:12
 description:
 tags:
 - food
@@ -7,11 +7,11 @@ tags:
 
 ## Eastern
 
-- soy orange braised meat
 - [*lu rou fan*](http://en.wikipedia.org/wiki/Minced_pork_rice)
 - Taiwanese-style cabbage
 - napa cabbage
 - dry-fried green beans
+- soy orange braised meat
 - sautéed chives
 - sautéed broccoli
 - marinated soft-boiled egg
@@ -19,10 +19,11 @@ tags:
 - soybean sprouts
 - cucumber salad
 - salted turnip omelette
+- Taiwanese pork cutlet
 - Malaysian chicken curry
-- Korean short rib
 - fried rice
 - pickled daikon radish
+- Korean short rib
 - Taiwanese cold sesame noodles
 - sweet peanut soup
 
@@ -34,14 +35,13 @@ tags:
 - salmon, asparagus, and potatoes
 - roasted root vegetables
 - zucchini and crookneck squash
+- chicken and forty cloves
 - fried egg
 - broccoli
-- Taiwanese pork cutlet
 - chicken soup
 - coleslaw
 - guacamole
 - kale, roasted
 - beef short rib or oxtail stew
-- chicken and forty cloves
 - lemon pepper chicken wings
 - frittata
