@@ -2,23 +2,25 @@ title: Favorite pantry items
 tags:
   - food
   - favorites
-date: 2014-12-11 15:28:17
+date: 2014-12-27 20:24:05
 description:
 ---
 
 - olive oil
-- garlic
 - rice
+- ginger
+- garlic
 - soy sauce
 - rice wine
 - oats
 - peanuts
 - onion
-- sesame oil
-- vinegar
-- canned tomato
-- potato
-- dry shallot
+- star anise
 - five spice powder
-- rock sugar
+- sesame oil
+- rice wine vinegar
+- distilled vinegar
+- tomato paste
 - chili paste
+- dry shallot
+- rock sugar

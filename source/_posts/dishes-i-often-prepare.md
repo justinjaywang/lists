@@ -5,34 +5,43 @@ tags:
 - food
 ---
 
-- Brussels sprouts, caramelized onions, bacon
+## Eastern
+
 - soy orange braised meat
 - [*lu rou fan*](http://en.wikipedia.org/wiki/Minced_pork_rice)
-- cabbage, sautéed
+- Taiwanese-style cabbage
+- napa cabbage
+- dry-fried green beans
+- sautéed chives
+- sautéed broccoli
+- marinated soft-boiled egg
+- huagua pickles
+- soybean sprouts
+- cucumber salad
+- salted turnip omelette
+- Malaysian chicken curry
+- Korean short rib
+- fried rice
+- pickled daikon radish
+- Taiwanese cold sesame noodles
+- sweet peanut soup
+
+## Western
+
+- Brussels sprouts, caramelized onions, bacon
+- braised pork ribs or shoulder
 - gold potatoes, roasted
 - salmon, asparagus, and potatoes
-- broccoli, roasted or sautéed
-- green beans, sautéed
-- chives
-- braised pork ribs or shoulder
-- cucumber salad
-- pickled cucumber
-- fried egg
 - roasted root vegetables
 - zucchini and crookneck squash
-- Malaysian chicken curry
+- fried egg
+- broccoli
 - Taiwanese pork cutlet
 - chicken soup
 - coleslaw
 - guacamole
 - kale, roasted
-- salted turnip omelette
 - beef short rib or oxtail stew
 - chicken and forty cloves
-- frittata
 - lemon pepper chicken wings
-- Korean short rib
-- fried rice
-- Taiwanese cold sesame noodles
-- soybean sprouts salad
-- sweet peanut soup
+- frittata

@@ -1,6 +1,6 @@
 title: Cities I want to visit
 description:
-date: 2012-05-23
+date: 2014-12-27 08:08:31
 tags:
 ---
 
@@ -15,3 +15,5 @@ tags:
 - Reykjavik, Iceland
 - Sydney, Australia
 - Hong Kong, China
+- Chengdu, China
+- Mexico City, Mexico
