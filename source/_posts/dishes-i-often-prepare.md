@@ -1,5 +1,5 @@
 title: Dishes I often prepare
-date: 2014-12-27 20:27:12
+date: 2015-01-01 13:54:16
 description:
 tags:
 - food
@@ -26,6 +26,8 @@ tags:
 - Korean short rib
 - Taiwanese cold sesame noodles
 - sweet peanut soup
+- boiled anise peanuts
+- sautéed iceberg lettuce
 
 ## Western
 
