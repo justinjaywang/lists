@@ -5,5 +5,5 @@ tags:
 - favorites
 ---
 
-- "Some people, they move the piano. Some people, they play the piano." —Oscar Schmidt
-- "The best look is a good plain look." —Andy Warhol
+- "Some people, they move the piano. Some people, they play the piano." <br>—Oscar Schmidt
+- "The best look is a good plain look." <br>—Andy Warhol
