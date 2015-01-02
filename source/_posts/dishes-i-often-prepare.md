@@ -5,13 +5,13 @@ tags:
 - food
 ---
 
-## Eastern
+## Eastern cuisine
 
-- [*lu rou fan*](http://en.wikipedia.org/wiki/Minced_pork_rice)
-- Taiwanese-style cabbage
-- napa cabbage
 - dry-fried green beans
 - soy orange braised meat
+- [*lu rou fan*](http://en.wikipedia.org/wiki/Minced_pork_rice)
+- Taiwanese cabbage
+- napa cabbage
 - sautéed chives
 - sautéed broccoli
 - marinated soft-boiled egg
@@ -29,7 +29,7 @@ tags:
 - boiled anise peanuts
 - sautéed iceberg lettuce
 
-## Western
+## Western cuisine
 
 - Brussels sprouts, caramelized onions, bacon
 - braised pork ribs or shoulder

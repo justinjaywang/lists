@@ -18,7 +18,7 @@ tags:
 - toiletry bag with: shampoo, body wash, toothbrush and paste, pomade, floss, deodorant, grooming kit, razor
 - iPhone with charger
 - MacBook with charger
-- Olympus PEN
+- Olympus PEN with charger
 - notebook and pen
 - wallet
 - keys

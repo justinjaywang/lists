@@ -14,13 +14,13 @@ description:
 - rice wine
 - oats
 - peanuts
-- onion
-- star anise
-- five spice powder
 - sesame oil
 - rice wine vinegar
+- star anise
+- onion
+- five spice powder
 - distilled vinegar
 - tomato paste
+- rock sugar
 - chili paste
 - dry shallot
-- rock sugar
