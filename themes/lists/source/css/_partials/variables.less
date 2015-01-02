@@ -107,6 +107,7 @@
 @font-style--post-tag-list-before:     @font-style-normal;
 @font-style--post-nav-prev-before:     @font-style-normal;
 @font-style--post-nav-next-before:     @font-style-normal;
+@font-style--post-nav-index-before:    @font-style-normal;
 @font-style--post-tag-list-item-after: @font-style-normal;
 
 // sizing and spacing
@@ -120,8 +121,8 @@
 @width-screen-xs-max:  (@max-width--container + (@hanging-indent * 2));
 // : applications
 @padding-left--container:                @container-gutter;
-@margin-top--body:                       (@em-unit--v * 1);
-@margin-bottom--body:                    (@em-unit--v * 4);
+@margin-top--body:                       (@em-unit--v * 3);
+@margin-bottom--body:                    (@em-unit--v * 3);
 @margin-bottom--page-header:             (@em-unit--v * 2);
 @margin-bottom--page-header--post:       (@em-unit--v * 2);
 @margin-bottom--post-header:             (@em-unit--v * 1);
@@ -135,6 +136,7 @@
 @padding-right--post-tag-list-before:    @padding-right--post-date-before;
 @padding-right--post-nav-prev-before:    @padding-right--post-date-before;
 @padding-right--post-nav-next-before:    @padding-right--post-date-before;
+@padding-right--post-nav-index-before:   @padding-right--post-date-before;
 @margin-right--post-tag-list-item:       (@em-unit--h * 1.5);
 @padding-left--hanging-indent:           @hanging-indent;
 @text-indent--hanging-indent:            (@padding-left--hanging-indent * -1);
@@ -156,6 +158,7 @@
 // content
 @content--post-date-before:         'updated';
 @content--post-tag-list-before:     'tagged';
-@content--post-nav-prev-before:     'prev';
-@content--post-nav-next-before:     'next';
+@content--post-nav-prev-before:     ' prev';
+@content--post-nav-next-before:     ' next';
+@content--post-nav-index-before:    '☞';
 @content--post-tag-list-item-after: ',';
