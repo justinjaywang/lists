@@ -1,4 +1,4 @@
-title: Rules for playing music
+title: Rules for music
 tags:
   - rules
   - music
@@ -8,8 +8,8 @@ description:
 
 - Be straightforward.
 - Don't rush.
-- Don't drag either.
+- Don't drag, either.
 - Articulate.
 - Let it flow naturally.
 - Be in tune.
-- Leave the audience wanting more.
+- Don't play every note every time.

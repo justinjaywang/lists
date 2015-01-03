@@ -7,12 +7,13 @@ tags:
 - design
 ---
 
+- Atlanta Braves
+- New York Yankees
 - San Francisco Giants
 - Los Angeles Dodgers
 - St. Louis Cardinals
-- Atlanta Braves
 - Cincinnati Reds
-- New York Mets
-- New York Yankees
 - Pittsburgh Pirates
 - Kansas City Royals
+- New York Mets
+- Minnesota Twins

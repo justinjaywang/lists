@@ -1,7 +1,7 @@
 title: "Brands I'm loyal to"
+date: 2015-01-01 21:19:46
 description:
 tags:
-
 ---
 
 - Apple
