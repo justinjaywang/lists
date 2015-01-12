@@ -9,6 +9,7 @@ tags:
 - coffee
 - vanilla
 - coconut
-- grapefruit
 - rosemary
-- cilantro
+- freshly cut wood
+- grapefruit
+- eucalyptus
