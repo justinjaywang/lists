@@ -1,5 +1,5 @@
 title: Dishes I often prepare
-date: 2015-01-01 13:54:16
+date: 2015-01-12 11:17:30
 description:
 tags:
 - food
@@ -28,6 +28,8 @@ tags:
 - sweet peanut soup
 - boiled anise peanuts
 - sautéed iceberg lettuce
+- steamed buns
+- *hongshao rou*
 
 ## Western cuisine
 

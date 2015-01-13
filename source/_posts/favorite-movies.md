@@ -1,6 +1,6 @@
 title: Favorite movies
 description: For aesthetic and sentimental reasons
-date: 2014-12-23 21:53:01
+date: 2015-01-12 11:13:42
 tags:
 - favorites
 - movies
@@ -8,9 +8,9 @@ tags:
 ---
 
 - The Truman Show (1998)
-- Amélie (2001)
 - Fantastic Mr. Fox (2009)
 - The Squid and the Whale (2005)
+- Amélie (2001)
 - Fargo (1996)
 - Ratatouille (2007)
 - Punch-Drunk Love (2002)
@@ -29,5 +29,4 @@ tags:
 - WALL•E (2008)
 - No Country for Old Men (2007)
 - Magnolia (1999)
-- Crouching Tiger, Hidden Dragon (2000)
 - Back to the Future (1985)

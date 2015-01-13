@@ -1,5 +1,5 @@
 title: To pack
-date: 2014-12-12 06:43:51
+date: 2015-01-12 11:15:24
 description:
 tags:
 ---
@@ -11,6 +11,7 @@ tags:
 - boxer briefs
 - undershirts
 - a pair of workout shorts
+- swim trunks
 - socks
 - Vans slip-ons
 - Nike running shoes

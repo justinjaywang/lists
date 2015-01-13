@@ -16,11 +16,13 @@ description:
 - peanuts
 - sesame oil
 - rice wine vinegar
+- all-purpose flour
+- dry yeast
 - star anise
-- onion
 - five spice powder
 - distilled vinegar
 - tomato paste
+- onion
 - rock sugar
 - chili paste
 - dry shallot
