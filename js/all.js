@@ -1,0 +1,1 @@
++function(e){"use strict";var t=37,n=39,o=73;e(document).keydown(function(e){var d=!1,r=document.getElementById("prev"),c=document.getElementById("next"),f=document.getElementById("home");e.keyCode==t?r?d=r.href:c&&(d=f.href):e.keyCode==n?c?d=c.href:r&&(d=f.href):e.keyCode==o&&f&&(d=f.href),d&&(window.location.href=d)})}(jQuery);
